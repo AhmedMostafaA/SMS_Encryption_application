@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background = "@drawable/msg" 
+    android:id="@+id/sms">
+    <TextView
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_x="11dp"
+        android:layout_y="68dp"
+        android:text="To"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="210dp"
+        android:layout_height="39dp"
+        android:layout_x="69dp"
+        android:layout_y="12dp"
+        android:text="sending sms"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/to"
+        android:layout_width="210dp"
+        android:layout_height="39dp"
+        android:layout_x="40dp"
+        android:layout_y="58dp" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/contact"
+        android:layout_width="40dp"
+        android:layout_height="39dp"
+        android:layout_x="254dp"
+        android:layout_y="58dp"
+        android:src="@android:drawable/ic_search_category_default" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="296dp"
+        android:layout_height="169dp"
+        android:layout_x="6dp"
+        android:layout_y="145dp" />
+
+    <TextView
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_x="8dp"
+        android:layout_y="122dp"
+        android:text="Message"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="196dp"
+        android:layout_height="wrap_content"
+        android:layout_x="48dp"
+        android:layout_y="341dp"
+        android:text="Send" />
+
+ </AbsoluteLayout>
